@@ -1,0 +1,3 @@
+{
+	"redis.reply_error": "The redis database did not reply with an expected message."
+}

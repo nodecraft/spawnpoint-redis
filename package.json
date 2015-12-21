@@ -1,0 +1,27 @@
+{
+  "name": "appframe-redis",
+  "version": "0.1.0",
+  "description": "Redis Plugin for Appframe on NPM",
+  "main": "appframe-redis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodecraft/appframe-redis.git"
+  },
+  "keywords": [
+    "redis",
+    "appframe"
+  ],
+  "author": "NodeCraft Hosting LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodecraft/appframe-redis/issues"
+  },
+  "homepage": "https://github.com/nodecraft/appframe-redis#readme",
+  "dependencies": {
+    "appframe": "0.3.5",
+    "ioredis": "1.13.1"
+  }
+}
