@@ -1,6 +1,6 @@
 {
   "name": "appframe-redis",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Redis Plugin for Appframe on NPM",
   "main": "appframe-redis.js",
   "scripts": {

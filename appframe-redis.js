@@ -14,7 +14,7 @@ module.exports = require('appframe')().registerPlugin({
 			app.error('Redis error occured').debug(err);
 		});
 		app.redis.once('ready', function(){
-			app.warn('Connect3ed to redis server.');
+			app.warn('Connected to redis server.');
 		});
 		app.redis.on('reconnecting', function(){
 			app.warn('Attempting to reconnect to redis server.');
