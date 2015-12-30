@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/nodecraft/appframe-redis#readme",
   "dependencies": {
-    "appframe": "0.3.6",
+    "appframe": "*",
     "ioredis": "1.13.1"
   }
 }
