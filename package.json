@@ -1,6 +1,6 @@
 {
   "name": "appframe-redis",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Redis Plugin for Appframe on NPM",
   "main": "appframe-redis.js",
   "scripts": {
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/nodecraft/appframe-redis#readme",
   "dependencies": {
     "appframe": "*",
-    "ioredis": "2.5.0"
+    "ioredis": "3.1.1"
   }
 }
