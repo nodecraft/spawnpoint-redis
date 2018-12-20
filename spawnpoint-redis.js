@@ -1,14 +1,14 @@
 'use strict';
-var redis = require('ioredis');
+const redis = require('ioredis');
 
-module.exports = require('appframe')().registerPlugin({
+module.exports = require('spawnpoint').registerPlugin({
 	dir: __dirname,
 	name: "Redis",
 	namespace: "redis",
 	errors: {
 		'redis.reply_error': require('ioredis/lib/reply_error.js')
 	},
-	exports: function(app, callback){
+	exports: function(app){
 		app.redis = new redis(app.config.redis);
 		app.redis.on('error', function(err){
 			app.error('Redis error occured').debug(err);

@@ -1,27 +1,27 @@
 {
-  "name": "appframe-redis",
-  "version": "0.1.8",
-  "description": "Redis Plugin for Appframe on NPM",
-  "main": "appframe-redis.js",
+  "name": "spawnpoint-redis",
+  "version": "1.0.0",
+  "description": "Redis Plugin for Spawnpoint on NPM",
+  "main": "spawnpoint-redis.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodecraft/appframe-redis.git"
+    "url": "git+https://github.com/nodecraft/spawnpoint-redis.git"
   },
   "keywords": [
     "redis",
-    "appframe"
+    "spawnpoint"
   ],
-  "author": "Nodecraft Inc",
+  "author": "Nodecraft, Inc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nodecraft/appframe-redis/issues"
+    "url": "https://github.com/nodecraft/spawnpoint-redis/issues"
   },
-  "homepage": "https://github.com/nodecraft/appframe-redis#readme",
+  "homepage": "https://github.com/nodecraft/spawnpoint-redis#readme",
   "dependencies": {
-    "appframe": "*",
+    "spawnpoint": "*",
     "ioredis": "3.2.2"
   }
 }
