@@ -1,6 +1,6 @@
 'use strict';
 const redis = require('ioredis');
-const { ReplyError } = require('redis-errors');
+const {ReplyError} = require('redis-errors');
 
 module.exports = require('spawnpoint').registerPlugin({
 	dir: __dirname,
