@@ -1,5 +1,5 @@
 # spawnpoint-redis
-[Redis](https://redis.io/) Plugin for [Spawnpoint](https://github.com/nodecraft/spawnpoint) on NPM. This currently does not support SSL.
+[Redis](https://redis.io/) Plugin for [Spawnpoint](https://github.com/nodecraft/spawnpoint) on NPM.
 
 [![npm version](https://badge.fury.io/js/spawnpoint-redis.svg)](https://badge.fury.io/js/spawnpoint-redis)
 [![dependencies Status](https://david-dm.org/nodecraft/spawnpoint-redis/status.svg)](https://david-dm.org/nodecraft/spawnpoint-redis)
