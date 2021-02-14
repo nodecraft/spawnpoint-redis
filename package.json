@@ -1,6 +1,6 @@
 {
   "name": "spawnpoint-redis",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Redis Plugin for Spawnpoint on NPM",
   "main": "spawnpoint-redis.js",
   "scripts": {
@@ -24,14 +24,15 @@
   },
   "homepage": "https://github.com/nodecraft/spawnpoint-redis#readme",
   "dependencies": {
-    "ioredis": "^4.16.2",
+    "ioredis": "^4.22.0",
     "redis-errors": "^1.2.0",
     "spawnpoint": "*"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-nodecraft": "^3.0.2",
-    "eslint-plugin-json": "^2.1.1",
-    "eslint-plugin-node": "^11.1.0"
+    "eslint": "^7.20.0",
+    "eslint-config-nodecraft": "^7.3.1",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-unicorn": "^28.0.0"
   }
 }
