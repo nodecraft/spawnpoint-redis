@@ -7,7 +7,7 @@ module.exports = require('spawnpoint').registerPlugin({
 	name: "Redis",
 	namespace: "redis",
 	errors: {
-		'redis.reply_error': ReplyError
+		'redis.reply_error': ReplyError,
 	},
 	exports: function(app){
 		app.redis = new redis(app.config.redis);
@@ -20,5 +20,5 @@ module.exports = require('spawnpoint').registerPlugin({
 		app.redis.on('reconnecting', function(){
 			app.warn('Attempting to reconnect to Redis server.');
 		});
-	}
+	},
 });
